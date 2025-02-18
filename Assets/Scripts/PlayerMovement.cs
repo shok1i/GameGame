@@ -40,10 +40,8 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator DashCooldown()
     {
-        Debug.Log("Calldown start");
         _dash = false;
         yield return new WaitForSeconds(dashCooldown);
-        Debug.Log("Calldown end");
         _dash = true;
     }
 }
