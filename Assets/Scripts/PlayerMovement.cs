@@ -1,16 +1,17 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class PlayerMovement : MonoBehaviour
 {
     // Для передвижения
     [SerializeField] public float moveSpeed = 5f;
     private Rigidbody2D rb;
-    private Vector3 _movement;
+    private Vector2 _movement;
 
     // Для механик дэша
-    [SerializeField] public float dashCalldawn = 0.001f;
-    [SerializeField] public float dashDistance = 10f;
+    [SerializeField] public float dashCooldown = 1f;
+    [SerializeField] public float dashSpeed = 100f;
     private bool _dash = true;
     
     // Для подключения анимации
@@ -22,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         _movement.x = Input.GetAxisRaw("Horizontal");
         _movement.y = Input.GetAxisRaw("Vertical");
@@ -32,15 +33,17 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftShift) && _dash && !rb.linearVelocity.Equals(Vector3.zero))
         {
-            rb.linearVelocity = _movement * dashDistance;
-            _dash = false;
-            StartCoroutine(DashCallDawn());
+            rb.linearVelocity = _movement * (moveSpeed + dashSpeed);
+            StartCoroutine(DashCooldown());
         }
     }
 
-    private IEnumerator DashCallDawn()
+    private IEnumerator DashCooldown()
     {
-        yield return new WaitForSeconds(dashCalldawn);
+        Debug.Log("Calldown start");
+        _dash = false;
+        yield return new WaitForSeconds(dashCooldown);
+        Debug.Log("Calldown end");
         _dash = true;
     }
 }
