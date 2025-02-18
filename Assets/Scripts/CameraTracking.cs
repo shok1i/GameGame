@@ -8,6 +8,6 @@ public class CameraTracking : MonoBehaviour
     void Update()
     {
         transform.position = (Vector2) target.transform.position;        
-        Debug.Log($"Camera pos: {transform.position} | Target pos: {target.transform.position} | Distance: {Vector2.Distance(transform.position, target.transform.position)}");
+        // Debug.Log($"Camera pos: {transform.position} | Target pos: {target.transform.position} | Distance: {Vector2.Distance(transform.position, target.transform.position)}");
     }
 }
