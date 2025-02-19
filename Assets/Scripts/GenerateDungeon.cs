@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class GenerateDungeon : MonoBehaviour {
     [SerializeField] public int heightMatrix = 6;
@@ -13,6 +14,7 @@ public class GenerateDungeon : MonoBehaviour {
     {
         getGeneratedMatrix();
         printMatrix();
+        getDeadEnds();
     }
 
     public int[,] getGeneratedMatrix(){
@@ -66,6 +68,30 @@ public class GenerateDungeon : MonoBehaviour {
             }
         }
         return matrix;
+    }
+
+    public List<int> getDeadEnds(){
+        List<int> deadEnds = new List<int>();
+        for (int i = 0; i < heightMatrix; i++) {
+            if (matrix[i,0] != -1){
+                deadEnds.Add(matrix[i,0]);
+            }
+            if (matrix[i, weightMatrix - 1] != -1) {
+                deadEnds.Add(matrix[i,weightMatrix - 1]);
+            }
+        }
+        for (int i = 0; i < weightMatrix; i++) {
+            if (matrix[0, i] != -1) {
+                deadEnds.Add(matrix[0,i]);
+            }
+            if (matrix[heightMatrix - 1, i] != -1) {
+                deadEnds.Add(matrix[heightMatrix - 1, i]);
+            }
+        }
+        foreach (int end in deadEnds) {
+            Debug.Log(end);
+        }
+        return deadEnds;
     }
 
     private void printMatrix(){
