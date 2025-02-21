@@ -37,18 +37,17 @@ public class Player : MonoBehaviour
         if (_canDash && Input.GetKey(KeyCode.LeftShift) && !_rb.linearVelocity.Equals(Vector3.zero))
         {
             _rb.linearVelocity = velocity * (moveSpeed + dashSpeed);
-            StartCoroutine(Dash(velocity));
+            StartCoroutine(Dash());
         }
     }
     
     private void MouseRotation()
     {
         _mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        // ПЕРЕПИСАТЬ ИБО НАПИСАН КРИНЖ (Мне показалось что оно ломается)
-        GetComponent<SpriteRenderer>().flipX = _mousePosition.x < transform.position.x;
+        transform.localScale = _mousePosition.x < transform.position.x ? new Vector3(-1, 1, 1) : new Vector3(1, 1, 1);
     }
 
-    private IEnumerator Dash(Vector3 velocity)
+    private IEnumerator Dash()
     {
         _canDash = false;
         yield return new WaitForSeconds(dashCooldown);
