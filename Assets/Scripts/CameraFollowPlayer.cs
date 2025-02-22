@@ -9,6 +9,6 @@ public class CameraFollowPlayer : MonoBehaviour
     {
         Vector3 offset = new Vector3(0f, 0f, -10f);
         if (target)
-            transform.position = Vector3.Lerp(transform.position, target.position + offset, smoothSpeed);
+            transform.position = Vector3.Lerp(transform.position, target.position, smoothSpeed) + offset;
     }
 }
