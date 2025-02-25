@@ -10,13 +10,20 @@ public class GenerateDungeon : MonoBehaviour {
 
     private int[,] matrix;
     private Dictionary<int, (int, int)> roomsAddress = new Dictionary<int, (int, int)>();
-    void Start()
-    {
-        getGeneratedMatrix();
-        printMatrix();
-        getDeadEnds();
-    }
+    // void Start()
+    // {
+    //     getGeneratedMatrix();
+    //     printMatrix();
+    //     getDeadEnds();
+    // }
 
+    public int[,] getMatrix()
+    {
+        return matrix;
+    }
+    public Dictionary<int, (int,int)> getRoomsAdderss(){
+        return roomsAddress;
+    }
     public int[,] getGeneratedMatrix(){
         matrix = new int[heightMatrix,weightMatrix];
         for(int i = 0; i < heightMatrix; i++){
@@ -44,9 +51,6 @@ public class GenerateDungeon : MonoBehaviour {
 
        for (int i = 1; i < roomsCount; i++){
             int currentRoom = i;
-            if (i % 4 == 0) {
-                currentRoom = Mathf.Abs(rand.NextInt(0, i - 1));
-            }
             (int choosenRoomX, int choosenRoomY) = roomsAddress[Mathf.Abs(currentRoom - 1)];
             
             int direction = rand.NextInt(0, 4);
@@ -88,13 +92,13 @@ public class GenerateDungeon : MonoBehaviour {
                 deadEnds.Add(matrix[heightMatrix - 1, i]);
             }
         }
-        foreach (int end in deadEnds) {
-            Debug.Log(end);
-        }
+        // foreach (int end in deadEnds) {
+        //     Debug.Log(end);
+        // }
         return deadEnds;
     }
 
-    private void printMatrix(){
+    public void printMatrix(){
         string buffer = "";
         for (int i = 0; i < heightMatrix; i++ ) {
             for (int j = 0; j < weightMatrix; j++ ) {
