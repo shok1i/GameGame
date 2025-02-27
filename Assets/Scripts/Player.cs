@@ -15,7 +15,7 @@ public class Player : MonoBehaviour
     private Vector2 _mousePosition;
     
     private Rigidbody2D _rb;
-    
+    private Animator _anim;
 
     // TODO:
     //  - Базово: Ношение предмета \\ При лучшем исходе: поднятие предмета и кидание предмета
@@ -23,6 +23,7 @@ public class Player : MonoBehaviour
     private void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
+        _anim = GetComponent<Animator>();
     }
 
     private void FixedUpdate()
@@ -30,6 +31,7 @@ public class Player : MonoBehaviour
         MouseRotation();
         
         Vector3 velocity = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0);
+        _anim.SetFloat("HorizontalMove", Mathf.Abs(Input.GetAxisRaw("Horizontal")));
         velocity.Normalize();
         
         _rb.linearVelocity = velocity * moveSpeed;
