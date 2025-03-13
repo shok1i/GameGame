@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
+using UnityEditor;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -12,14 +14,12 @@ public class Player : MonoBehaviour
     [SerializeField] public float dashSpeed = 95f;
     private bool _canDash = true;
 
+    private float _pickableRange = 1.25f;
+    
     private Vector2 _mousePosition;
     
     private Rigidbody2D _rb;
     
-
-    // TODO:
-    //  - Базово: Ношение предмета \\ При лучшем исходе: поднятие предмета и кидание предмета
-
     private void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
@@ -39,6 +39,8 @@ public class Player : MonoBehaviour
             _rb.linearVelocity = velocity * (moveSpeed + dashSpeed);
             StartCoroutine(Dash());
         }
+
+        HighlightClosestItem();
     }
     
     private void MouseRotation()
@@ -54,13 +56,49 @@ public class Player : MonoBehaviour
         _canDash = true;
     }
 
-    private void ItemPickUp()
+
+
+    private Outliner highlightedItem;
+    private void HighlightClosestItem()
     {
+        Collider2D[] itemsInRange = Physics2D.OverlapCircleAll(transform.position, _pickableRange);
+        Outliner closestItem = null;
+        float closestDistance = float.MaxValue;
         
+        foreach (var collider in itemsInRange)
+        {
+            Outliner item = collider.TryGetComponent<Outliner>(out item) ? item : null;
+            if (item)
+            {
+                float distance = Vector2.Distance(transform.position, item.transform.position);
+                if (distance < closestDistance)
+                {
+                    closestDistance = distance;
+                    closestItem = item;
+                }
+            }
+        }
+
+        if (highlightedItem != closestItem)
+        {
+            if (highlightedItem)
+            {
+                highlightedItem.ChangeHighlightStatus(false);
+            }
+
+            if (closestItem)
+            {
+                closestItem.ChangeHighlightStatus(true);
+            }
+            
+            highlightedItem = closestItem;
+        }
     }
 
-    private void ItemDrop()
+    // For Debug radius of pickable range
+    void OnDrawGizmosSelected()
     {
-        
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(transform.position, _pickableRange);
     }
 }

@@ -2,26 +2,24 @@
 
 public class Outliner : MonoBehaviour
 {
-    [SerializeField] public Color selectedColor = Color.yellow;
-    [SerializeField] public float outlineThickness = 0.025f;
+    private Renderer _spriteRenderer; 
     
-    // other - это тот кто справоцировал
-
-    private Material _material;
-
-    private void Start()
+    private Shader _shaderDefault;
+    private Shader _shaderOutline;
+    
+    // Run once a time Before Start()
+    private void Awake()
     {
-        _material = GetComponent<Renderer>().material;
-        _material.SetColor("_OutlineColor", selectedColor);
+        _shaderDefault = Shader.Find("Sprites/Default");
+        _shaderOutline = Shader.Find("Custom/OutlineShader");
+        
+        _spriteRenderer = GetComponent<Renderer>();
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public void ChangeHighlightStatus(bool status)
     {
-        _material.SetFloat("_OutlineWidth", outlineThickness);
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        _material.SetFloat("_OutlineWidth", 0f);
+        _spriteRenderer.material.shader = status ? _shaderOutline : _shaderDefault;
+        Debug.Log($"ChangeHighlightStatus({status})");
+        Debug.Log($"ChangeHighlightStatus({_spriteRenderer.material.shader.name})");
     }
 }
