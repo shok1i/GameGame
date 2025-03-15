@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      goyman_bear_0: -5941442038972219478
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
