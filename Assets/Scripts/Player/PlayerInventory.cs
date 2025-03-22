@@ -3,7 +3,7 @@ using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 
-public class PlayerItemToInventory : MonoBehaviour
+public class PlayerInventory : MonoBehaviour
 {
     void Update()
     {

@@ -3,11 +3,10 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public float maxHealth = 100f;
-    private float currentHealth;
+    public float maxHealth;
+    public float currentHealth;
 
-    // Call once before Start()
-    private void Awake()
+    private void Start()
     {
         currentHealth = maxHealth;
     }

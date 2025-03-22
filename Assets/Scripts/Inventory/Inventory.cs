@@ -3,7 +3,7 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     public InventorySlot[] items;
-    public int inventorySize = 10;
+    public int inventorySize;
 
     // Call once before Start()
     private void Awake()
