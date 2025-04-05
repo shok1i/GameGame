@@ -13,6 +13,6 @@ public class PlayerAnimation : MonoBehaviour
 
     void FixedUpdate()
     {
-        
+        _animator.SetFloat("HorizontalMove", Mathf.Abs(Input.GetAxisRaw("Horizontal")));
     }
 }
