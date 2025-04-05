@@ -60,14 +60,4 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(dashCooldown);
         _canDash = true;
     }
-
-    private void ItemPickUp()
-    {
-        
-    }
-
-    private void ItemDrop()
-    {
-        
-    }
 }
