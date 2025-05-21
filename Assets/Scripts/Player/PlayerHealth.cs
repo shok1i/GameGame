@@ -25,6 +25,7 @@ public class PlayerHealth : MonoBehaviour
         Debug.Log($"Take {damage} damage");
         if (currentHealth <= 0)
         {
+            healthBarFill.fillAmount = 0;
             Die();
         }
     }
@@ -32,7 +33,6 @@ public class PlayerHealth : MonoBehaviour
     private void Die()
     {
         Debug.Log("Press F to pay respect");
-        
-        gameObject.SetActive(false);
+        // load scene
     }
 }

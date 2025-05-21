@@ -23,7 +23,11 @@ public class Bullet : MonoBehaviour
     {
         if (other.CompareTag("Wall") || other.CompareTag("Enemy"))
         {
-            Debug.Log("ABOBA");
+            if (other.CompareTag("Enemy"))
+            {
+                EnemyManager enemy = other.GetComponent<EnemyManager>();
+                enemy.getDamage(20f); // обновить для Weapon
+            }
             if (hitEffectPrefab != null)
             {
                 GameObject effect = Instantiate(hitEffectPrefab, transform.position, Quaternion.identity);
