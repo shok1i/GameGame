@@ -9,6 +9,7 @@ public class GenerateDungeon : MonoBehaviour {
     [SerializeField] public int roomsCount = 6;
 
     private int[,] matrix;
+    private uint _seed;
     private Dictionary<int, (int, int)> roomsAddress = new Dictionary<int, (int, int)>();
     // void Start()
     // {
@@ -17,6 +18,8 @@ public class GenerateDungeon : MonoBehaviour {
     //     getDeadEnds();
     // }
 
+    public uint getSeed(){ return _seed; }
+
     public int[,] getMatrix()
     {
         return matrix;
@@ -24,17 +27,17 @@ public class GenerateDungeon : MonoBehaviour {
     public Dictionary<int, (int,int)> getRoomsAdderss(){
         return roomsAddress;
     }
-    public int[,] getGeneratedMatrix(){
+    public int[,] getGeneratedMatrix(uint seed = 0){
         matrix = new int[heightMatrix,weightMatrix];
         for(int i = 0; i < heightMatrix; i++){
             for (int j = 0; j < weightMatrix; j++) {
                 matrix[i,j] = -1;
             }
         }
-        matrix = generateRooms();
+        matrix = generateRooms(seed);
         return matrix;
     }
-    private int[,] generateRooms(){
+    private int[,] generateRooms(uint seed = 0){
         matrix = new int[heightMatrix,weightMatrix];
         for(int i = 0; i < heightMatrix; i++){
             for (int j = 0; j < weightMatrix; j++) {
@@ -42,7 +45,12 @@ public class GenerateDungeon : MonoBehaviour {
             }
         }
         // generate first room
-        Unity.Mathematics.Random rand = new Unity.Mathematics.Random((uint)DateTime.Now.Ticks);
+        if (seed == 0){
+            seed = (uint)DateTime.Now.Ticks;
+        }
+        _seed = seed;
+        Debug.Log("SEED " + seed);
+        Unity.Mathematics.Random rand = new Unity.Mathematics.Random(seed);
         int firstX = rand.NextInt(0,weightMatrix);
         int firstY = rand.NextInt(0,heightMatrix);
         matrix[firstY, firstX] = 0;
