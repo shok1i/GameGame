@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 using UnityEngine.UIElements;
 
 public class MakeDungeon : MonoBehaviour
@@ -31,7 +32,6 @@ public class MakeDungeon : MonoBehaviour
         foreach (var room in roomsAddress)
         {
             if (room.Key == 0){
-                Debug.Log("0 ROOM");
                 coordY = room.Value.Item1;
                 coordX = room.Value.Item2;
                 continue;
@@ -67,12 +67,9 @@ public class MakeDungeon : MonoBehaviour
             foreach (var room in roomsAddress){
                 var nextRoomX = room.Value.Item2;
                 var nextRoomY = room.Value.Item1;
-                //Debug.Log(currentRoomX + " " + currentRoomY + " " + nextRoomX + " " + nextRoomY);
                 if (currentRoomX == nextRoomX && currentRoomY == nextRoomY){
-                    //Debug.Log("Room " + i + " skipped" + room.Key);
                     continue;
                 } else if (nextRoomX - currentRoomX == 1 && currentRoomY == nextRoomY){
-                    //Debug.Log("Room-" + i + "(Clone) and" + room.Key);
                     var currentRoom = roomsObject.transform.Find("Room-" + i + "(Clone)"); //("Room-" + i);
                     var distRoom = roomsObject.transform.Find("Room-" + room.Key + "(Clone)");
                     // right wall -> left wall
@@ -82,34 +79,37 @@ public class MakeDungeon : MonoBehaviour
                         startWall = distRoom.Find("Wall Left");
                         distWall = currentRoom.Find("Wall Right");
                     }
-                    //Debug.Log(distWall.transform.position);
-                    //Debug.Log(startWall.transform.position);
-                    var doorObject = doorPrefabs[0];
+                    var doorObject = doorPrefabs[1];
                     var distance = Mathf.Abs(distWall.transform.position.x - startWall.transform.position.x);
-                    var posX = (distWall.transform.position.x + startWall.transform.position.x) / 2;
-                    //Debug.Log(posX);
-                    doorObject.GetComponentInChildren<SpriteRenderer>().size = new UnityEngine.Vector2(distance+1, 1f);
-                    doorObject.GetComponentInChildren<BoxCollider2D>().size = new Vector2(distance+1,1f);
-                    Instantiate(doorObject, new UnityEngine.Vector3(posX,distWall.transform.position.y,13), Quaternion.identity);
+                    var posX = (distWall.transform.position.x + startWall.transform.position.x) / 2 + 0.5f;
+                    doorObject.GetComponentInChildren<BoxCollider2D>().size = new Vector2(8f, 3f);
+                    bool startedCollider = true;
+                    for (float j = distWall.transform.position.x; j <= startWall.transform.position.x;){
+                        GameObject door = Instantiate(doorObject, new UnityEngine.Vector3(j, distWall.transform.position.y - 0.2f, 13), Quaternion.identity);
+                        if(!startedCollider){
+                            Transform child = door.transform.Find("Collider");
+                            Destroy(child.GetComponent<BoxCollider2D>());
+                        }
+                        startedCollider = false;
+                        j += 4f;
+                    }
+                    Instantiate(doorObject, new UnityEngine.Vector3(startWall.transform.position.x,distWall.transform.position.y-0.2f,13), Quaternion.identity);
                 } else if (nextRoomY - currentRoomY == 1 && currentRoomX == nextRoomX){
-                    Debug.Log("Room-" + i + "(Clone) and" + room.Key);
                     var currentRoom = roomsObject.transform.Find("Room-" + i + "(Clone)"); //("Room-" + i);
                     var distRoom = roomsObject.transform.Find("Room-" + room.Key + "(Clone)");
+                    Debug.Log(room.Key);
                     // down wall -> upper wall
                     Transform startWall = currentRoom.Find("Wall Bottom");
                     Transform distWall = distRoom.Find("Wall Top");
-                    Debug.Log(currentRoomY + " " + nextRoomY);
                     if (currentRoomY > nextRoomY){
                         startWall = distRoom.Find("Wall Bottom");
                         distWall = currentRoom.Find("Wall Top");
                     }
-                    Debug.Log(distWall.transform.position);
-                    Debug.Log(startWall.transform.position);
                     var doorObject = doorPrefabs[0];
                     var distance = Mathf.Abs(distWall.transform.position.y - startWall.transform.position.y);
                     var posY = (distWall.transform.position.y + startWall.transform.position.y) / 2;
-                    doorObject.GetComponentInChildren<SpriteRenderer>().size = new Vector2(1f, distance + 1);
-                    doorObject.GetComponentInChildren<BoxCollider2D>().size = new Vector2(1f, distance+1);
+                    doorObject.GetComponentInChildren<SpriteRenderer>().size = new Vector2(1f, distance + 1f);
+                    doorObject.GetComponentInChildren<BoxCollider2D>().size = new Vector2(4f, distance+2.5f);
                     Instantiate(doorObject, new Vector3(distWall.transform.position.x, posY, 13), Quaternion.identity);
                 }
             }
