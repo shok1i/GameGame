@@ -9,6 +9,7 @@ public class MakeDungeon : MonoBehaviour
     public GameObject[] roomsPrefabs;
     public GameObject[] doorPrefabs;
     public GameObject roomsObject;
+    public GameObject doorsObject;
     private GenerateDungeon _generateDungeonScript;
     private int _roomsCount = 0;
 
@@ -85,7 +86,7 @@ public class MakeDungeon : MonoBehaviour
                     doorObject.GetComponentInChildren<BoxCollider2D>().size = new Vector2(8f, 3f);
                     bool startedCollider = true;
                     for (float j = distWall.transform.position.x; j <= startWall.transform.position.x;){
-                        GameObject door = Instantiate(doorObject, new UnityEngine.Vector3(j, distWall.transform.position.y - 0.2f, 13), Quaternion.identity);
+                        GameObject door = Instantiate(doorObject, new UnityEngine.Vector3(j, distWall.transform.position.y - 0.2f, 13), Quaternion.identity, parent:doorsObject.transform);
                         if(!startedCollider){
                             Transform child = door.transform.Find("Collider");
                             Destroy(child.GetComponent<BoxCollider2D>());
@@ -93,7 +94,7 @@ public class MakeDungeon : MonoBehaviour
                         startedCollider = false;
                         j += 4f;
                     }
-                    Instantiate(doorObject, new UnityEngine.Vector3(startWall.transform.position.x,distWall.transform.position.y-0.2f,13), Quaternion.identity);
+                    Instantiate(doorObject, new UnityEngine.Vector3(startWall.transform.position.x,distWall.transform.position.y-0.2f,13), Quaternion.identity, parent:doorsObject.transform);
                 } else if (nextRoomY - currentRoomY == 1 && currentRoomX == nextRoomX){
                     var currentRoom = roomsObject.transform.Find("Room-" + i + "(Clone)"); //("Room-" + i);
                     var distRoom = roomsObject.transform.Find("Room-" + room.Key + "(Clone)");
@@ -110,7 +111,7 @@ public class MakeDungeon : MonoBehaviour
                     var posY = (distWall.transform.position.y + startWall.transform.position.y) / 2;
                     doorObject.GetComponentInChildren<SpriteRenderer>().size = new Vector2(1f, distance + 1f);
                     doorObject.GetComponentInChildren<BoxCollider2D>().size = new Vector2(4f, distance+2.5f);
-                    Instantiate(doorObject, new Vector3(distWall.transform.position.x, posY, 13), Quaternion.identity);
+                    Instantiate(doorObject, new Vector3(distWall.transform.position.x, posY, 13), Quaternion.identity, parent:doorsObject.transform);
                 }
             }
         }
