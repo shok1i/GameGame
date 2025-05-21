@@ -91,7 +91,7 @@ public class MainMenuCore : MonoBehaviour
     public void NewGame_Click()
     {
         if (!_enterFlag) return;
-        // SceneManager.LoadScene(" - - - - - - ");
+        SceneManager.LoadScene("SceneForRooms");
     }
 
     // Continue Section
