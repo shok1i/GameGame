@@ -1,0 +1,2977 @@
+fileFormatVersion: 2
+guid: db5b1756b72e17c4881b43f96b5125cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1304222903672149648
+    second: End_Game_Dimension_Collection_0
+  - first:
+      213: 8048234757266273452
+    second: End_Game_Dimension_Collection_1
+  - first:
+      213: 2818632302524605361
+    second: End_Game_Dimension_Collection_2
+  - first:
+      213: -8136129021835931760
+    second: End_Game_Dimension_Collection_3
+  - first:
+      213: 3916854776321158678
+    second: End_Game_Dimension_Collection_4
+  - first:
+      213: 7112061433958678873
+    second: End_Game_Dimension_Collection_5
+  - first:
+      213: -2733663511350189563
+    second: End_Game_Dimension_Collection_6
+  - first:
+      213: -2074265532408543569
+    second: End_Game_Dimension_Collection_7
+  - first:
+      213: -4342751196544902141
+    second: End_Game_Dimension_Collection_8
+  - first:
+      213: -2294451167896799858
+    second: End_Game_Dimension_Collection_9
+  - first:
+      213: -2398876841553090646
+    second: End_Game_Dimension_Collection_10
+  - first:
+      213: 285399985606230516
+    second: End_Game_Dimension_Collection_11
+  - first:
+      213: -8413012103471794741
+    second: End_Game_Dimension_Collection_12
+  - first:
+      213: 2605735903437958732
+    second: End_Game_Dimension_Collection_13
+  - first:
+      213: 7649370336721955764
+    second: End_Game_Dimension_Collection_14
+  - first:
+      213: 1993113645224475825
+    second: End_Game_Dimension_Collection_15
+  - first:
+      213: -2141473255483542654
+    second: End_Game_Dimension_Collection_16
+  - first:
+      213: -3734083910204890118
+    second: End_Game_Dimension_Collection_17
+  - first:
+      213: 2725113482578114922
+    second: End_Game_Dimension_Collection_18
+  - first:
+      213: 3710669477457149655
+    second: End_Game_Dimension_Collection_19
+  - first:
+      213: -128140481655187608
+    second: End_Game_Dimension_Collection_20
+  - first:
+      213: -8106353234658479958
+    second: End_Game_Dimension_Collection_21
+  - first:
+      213: 5992222113183756724
+    second: End_Game_Dimension_Collection_22
+  - first:
+      213: 7381870662071200150
+    second: End_Game_Dimension_Collection_23
+  - first:
+      213: 4814709736489899470
+    second: End_Game_Dimension_Collection_24
+  - first:
+      213: 5948875987830680449
+    second: End_Game_Dimension_Collection_25
+  - first:
+      213: -5063672471306024496
+    second: End_Game_Dimension_Collection_26
+  - first:
+      213: 3319252604950130621
+    second: End_Game_Dimension_Collection_27
+  - first:
+      213: 4757903767941141806
+    second: End_Game_Dimension_Collection_28
+  - first:
+      213: 5412869552207463662
+    second: End_Game_Dimension_Collection_29
+  - first:
+      213: 9137696391838713291
+    second: End_Game_Dimension_Collection_30
+  - first:
+      213: 4102585316844489919
+    second: End_Game_Dimension_Collection_31
+  - first:
+      213: -1759088369438185895
+    second: End_Game_Dimension_Collection_32
+  - first:
+      213: 5933908795820763151
+    second: End_Game_Dimension_Collection_33
+  - first:
+      213: 8291879248633784096
+    second: End_Game_Dimension_Collection_34
+  - first:
+      213: 1965403250664007804
+    second: End_Game_Dimension_Collection_35
+  - first:
+      213: -7105880687212103135
+    second: End_Game_Dimension_Collection_36
+  - first:
+      213: -1242772085205211010
+    second: End_Game_Dimension_Collection_37
+  - first:
+      213: 5823763215894613196
+    second: End_Game_Dimension_Collection_38
+  - first:
+      213: 8785281304359392995
+    second: End_Game_Dimension_Collection_39
+  - first:
+      213: -7786664358697727700
+    second: End_Game_Dimension_Collection_40
+  - first:
+      213: -213823254531100806
+    second: End_Game_Dimension_Collection_41
+  - first:
+      213: -3802893075463495194
+    second: End_Game_Dimension_Collection_42
+  - first:
+      213: -8807526799602774179
+    second: End_Game_Dimension_Collection_43
+  - first:
+      213: -172002927959977381
+    second: End_Game_Dimension_Collection_44
+  - first:
+      213: 1771945850721388034
+    second: End_Game_Dimension_Collection_45
+  - first:
+      213: -777843902526509424
+    second: End_Game_Dimension_Collection_46
+  - first:
+      213: -894710969580711923
+    second: End_Game_Dimension_Collection_47
+  - first:
+      213: -8021024578488029823
+    second: End_Game_Dimension_Collection_48
+  - first:
+      213: -662000853909269971
+    second: End_Game_Dimension_Collection_49
+  - first:
+      213: 6515946394741930355
+    second: End_Game_Dimension_Collection_50
+  - first:
+      213: 8911917463437067507
+    second: End_Game_Dimension_Collection_51
+  - first:
+      213: -6427844131471298030
+    second: End_Game_Dimension_Collection_52
+  - first:
+      213: 1261966976095924006
+    second: End_Game_Dimension_Collection_53
+  - first:
+      213: -1393047382357134137
+    second: End_Game_Dimension_Collection_54
+  - first:
+      213: -3415721074866680850
+    second: End_Game_Dimension_Collection_55
+  - first:
+      213: 1456691750407051219
+    second: End_Game_Dimension_Collection_56
+  - first:
+      213: -5175797761762533296
+    second: End_Game_Dimension_Collection_57
+  - first:
+      213: -5491611498701283920
+    second: End_Game_Dimension_Collection_58
+  - first:
+      213: -1760522941770450231
+    second: End_Game_Dimension_Collection_59
+  - first:
+      213: 2239918774181232862
+    second: End_Game_Dimension_Collection_60
+  - first:
+      213: 2367984531175796035
+    second: End_Game_Dimension_Collection_61
+  - first:
+      213: 2756282906417045878
+    second: End_Game_Dimension_Collection_62
+  - first:
+      213: 4593030673400909595
+    second: End_Game_Dimension_Collection_63
+  - first:
+      213: 6380477782241273461
+    second: End_Game_Dimension_Collection_64
+  - first:
+      213: 5207547543373871507
+    second: End_Game_Dimension_Collection_65
+  - first:
+      213: -7634169408787253945
+    second: End_Game_Dimension_Collection_66
+  - first:
+      213: 5263005796262734003
+    second: End_Game_Dimension_Collection_67
+  - first:
+      213: 3659510867683442379
+    second: End_Game_Dimension_Collection_68
+  - first:
+      213: 3011968601897828699
+    second: End_Game_Dimension_Collection_69
+  - first:
+      213: -450835498629951158
+    second: End_Game_Dimension_Collection_70
+  - first:
+      213: -1705453729058084697
+    second: End_Game_Dimension_Collection_71
+  - first:
+      213: -3456157113011863350
+    second: End_Game_Dimension_Collection_72
+  - first:
+      213: 2586717042256186207
+    second: End_Game_Dimension_Collection_73
+  - first:
+      213: -8397470572492899213
+    second: End_Game_Dimension_Collection_74
+  - first:
+      213: 8779840583678400763
+    second: End_Game_Dimension_Collection_75
+  - first:
+      213: 5031566426882805969
+    second: End_Game_Dimension_Collection_76
+  - first:
+      213: 2467058559827506718
+    second: End_Game_Dimension_Collection_77
+  - first:
+      213: -273892192538257437
+    second: End_Game_Dimension_Collection_78
+  - first:
+      213: -93764280330269714
+    second: End_Game_Dimension_Collection_79
+  - first:
+      213: 9025301419886583933
+    second: End_Game_Dimension_Collection_80
+  - first:
+      213: -4453327762461151345
+    second: End_Game_Dimension_Collection_81
+  - first:
+      213: 7895052404647614595
+    second: End_Game_Dimension_Collection_82
+  - first:
+      213: -3524114957592348217
+    second: End_Game_Dimension_Collection_83
+  - first:
+      213: 5128476665201112928
+    second: End_Game_Dimension_Collection_84
+  - first:
+      213: 3843434759860394744
+    second: End_Game_Dimension_Collection_85
+  - first:
+      213: 2199432255223207590
+    second: End_Game_Dimension_Collection_86
+  - first:
+      213: 2999262217447272223
+    second: End_Game_Dimension_Collection_87
+  - first:
+      213: 7798666243531169419
+    second: End_Game_Dimension_Collection_88
+  - first:
+      213: 8713382238506444418
+    second: End_Game_Dimension_Collection_89
+  - first:
+      213: -4126743758740394155
+    second: End_Game_Dimension_Collection_90
+  - first:
+      213: -7458825864962844793
+    second: End_Game_Dimension_Collection_91
+  - first:
+      213: -3730323004318487009
+    second: End_Game_Dimension_Collection_92
+  - first:
+      213: -8074258581661999816
+    second: End_Game_Dimension_Collection_93
+  - first:
+      213: 5246453477332341433
+    second: End_Game_Dimension_Collection_94
+  - first:
+      213: -8181659398037634974
+    second: End_Game_Dimension_Collection_95
+  - first:
+      213: -6019705255338111357
+    second: End_Game_Dimension_Collection_96
+  - first:
+      213: -8746070478668974846
+    second: End_Game_Dimension_Collection_97
+  - first:
+      213: -7776770257065923137
+    second: End_Game_Dimension_Collection_98
+  - first:
+      213: -8077599399340259015
+    second: End_Game_Dimension_Collection_99
+  - first:
+      213: -2591523618143859282
+    second: End_Game_Dimension_Collection_100
+  - first:
+      213: 5633472683442091024
+    second: End_Game_Dimension_Collection_101
+  - first:
+      213: -3911763016193036035
+    second: End_Game_Dimension_Collection_102
+  - first:
+      213: -5637866406302303066
+    second: End_Game_Dimension_Collection_103
+  - first:
+      213: 2983886718935601064
+    second: End_Game_Dimension_Collection_104
+  - first:
+      213: -5215251273867217876
+    second: End_Game_Dimension_Collection_105
+  - first:
+      213: 2118699775695480277
+    second: End_Game_Dimension_Collection_106
+  - first:
+      213: -5552712203460391106
+    second: End_Game_Dimension_Collection_107
+  - first:
+      213: -1373343853805807574
+    second: End_Game_Dimension_Collection_108
+  - first:
+      213: -6075708363746378313
+    second: End_Game_Dimension_Collection_109
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1982
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07961bedd2876ede0800000000000000
+      internalID: -1304222903672149648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1982
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4fecfced211bf60800000000000000
+      internalID: 8048234757266273452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_2
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 2007
+        width: 62
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3ab68352bcd1720800000000000000
+      internalID: 2818632302524605361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_3
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1990
+        width: 62
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f09bef2c9a61f80800000000000000
+      internalID: -8136129021835931760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_4
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1990
+        width: 62
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e2a6baaa67b5630800000000000000
+      internalID: 3916854776321158678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_5
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1972
+        width: 62
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951ccdf513e13b260800000000000000
+      internalID: 7112061433958678873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_6
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1971
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502668e1583101ad0800000000000000
+      internalID: -2733663511350189563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_7
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1989
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6c3fafc7ab633e0800000000000000
+      internalID: -2074265532408543569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_8
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1992
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30cd90eabc27bb3c0800000000000000
+      internalID: -4342751196544902141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_9
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1955
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85f70fb1d87820e0800000000000000
+      internalID: -2294451167896799858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_10
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1955
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7215fe83a75bed0800000000000000
+      internalID: -2398876841553090646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_11
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1992
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f106f856c1f5f300800000000000000
+      internalID: 285399985606230516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_12
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1989
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc57081e01afe3b80800000000000000
+      internalID: -8413012103471794741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_13
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1929
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ea6e69ffe692420800000000000000
+      internalID: 2605735903437958732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_14
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1928
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbe8bb0bc5082a60800000000000000
+      internalID: 7649370336721955764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_15
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1928
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bcb694ec46f8ab10800000000000000
+      internalID: 1993113645224475825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_16
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1929
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28377ee8b65f742e0800000000000000
+      internalID: -2141473255483542654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_17
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1906
+        width: 88
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af36cbab77edd2cc0800000000000000
+      internalID: -3734083910204890118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1892
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6932bd264c81d520800000000000000
+      internalID: 2725113482578114922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_19
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1893
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7deb7b2da32fe7330800000000000000
+      internalID: 3710669477457149655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_20
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1912
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867589d29e0c83ef0800000000000000
+      internalID: -128140481655187608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_21
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1900
+        width: 62
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0b750bea2708f80800000000000000
+      internalID: -8106353234658479958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_22
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1895
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1fe878346a82350800000000000000
+      internalID: 5992222113183756724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_23
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1894
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699a1ae914ca17660800000000000000
+      internalID: 7381870662071200150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_24
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1892
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec55814fef841d240800000000000000
+      internalID: 4814709736489899470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_25
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1893
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18baf734137ae8250800000000000000
+      internalID: 5948875987830680449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_26
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1738
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d941e047b83ab9b0800000000000000
+      internalID: -5063672471306024496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_27
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1738
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbfa7d578aa501e20800000000000000
+      internalID: 3319252604950130621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_28
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1746
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25df9bb448770240800000000000000
+      internalID: 4757903767941141806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1568
+        width: 145
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee48adadd206e1b40800000000000000
+      internalID: 5412869552207463662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_30
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1648
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc54aec647e9fce70800000000000000
+      internalID: 9137696391838713291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_31
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1648
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbccf37fb9f4fe830800000000000000
+      internalID: 4102585316844489919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_32
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1648
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956ad13b2767697e0800000000000000
+      internalID: -1759088369438185895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_33
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1636
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0866705c9a795250800000000000000
+      internalID: 5933908795820763151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_34
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1677
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027ef3f8e3ca21370800000000000000
+      internalID: 8291879248633784096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_35
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1603
+        width: 62
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78e934e7d3864b10800000000000000
+      internalID: 1965403250664007804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_36
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1550
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12af96ed927d26d90800000000000000
+      internalID: -7105880687212103135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_37
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1605
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78629c7f59c0cee0800000000000000
+      internalID: -1242772085205211010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_38
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1492
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc826b0ac922d050800000000000000
+      internalID: 5823763215894613196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_39
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1571
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6d836ccc69be970800000000000000
+      internalID: 8785281304359392995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_40
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1547
+        width: 62
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2980a2750630f390800000000000000
+      internalID: -7786664358697727700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_41
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1532
+        width: 62
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fa4f402e8580df0800000000000000
+      internalID: -213823254531100806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_42
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1526
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1a43e75e8693bc0800000000000000
+      internalID: -3802893075463495194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_43
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1526
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f81ff3a0165c580800000000000000
+      internalID: -8807526799602774179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_44
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1493
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b525e929f3cec9df0800000000000000
+      internalID: -172002927959977381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_45
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1493
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206c971fc57379810800000000000000
+      internalID: 1771945850721388034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_46
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1402
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e2433871b8435f0800000000000000
+      internalID: -777843902526509424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_47
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1474
+        width: 62
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d001f711d195593f0800000000000000
+      internalID: -894710969580711923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_48
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1448
+        width: 608
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d2b80a4a89fa090800000000000000
+      internalID: -8021024578488029823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_49
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1390
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d229bb51bb910d6f0800000000000000
+      internalID: -662000853909269971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_50
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1110
+        width: 304
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379741a19ba4d6a50800000000000000
+      internalID: 6515946394741930355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_51
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1393
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f444c337bd7dab70800000000000000
+      internalID: 8911917463437067507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_52
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1386
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212f21091d5bbc6a0800000000000000
+      internalID: -6427844131471298030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_53
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 1386
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fa8705748638110800000000000000
+      internalID: 1261966976095924006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_54
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1137
+        width: 144
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4b05359c6eaace0800000000000000
+      internalID: -1393047382357134137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_55
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1206
+        width: 96
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb81c897cbe890d0800000000000000
+      internalID: -3415721074866680850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_56
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1206
+        width: 96
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7114add65373410800000000000000
+      internalID: 1456691750407051219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_57
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1287
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050e1e4bb5fdb28b0800000000000000
+      internalID: -5175797761762533296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_58
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1287
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd957f0070e9c3b0800000000000000
+      internalID: -5491611498701283920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_59
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1134
+        width: 20
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cab8dc46bd5197e0800000000000000
+      internalID: -1760522941770450231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_60
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1136
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed00dcce14ac51f10800000000000000
+      internalID: 2239918774181232862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_61
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 950
+        width: 160
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d6a5e8265ccd020800000000000000
+      internalID: 2367984531175796035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_62
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1037
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671287133b8404620800000000000000
+      internalID: 2756282906417045878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_63
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 981
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1fc8820019bdbf30800000000000000
+      internalID: 4593030673400909595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_64
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 975
+        width: 27
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57663cbdcb20c8850800000000000000
+      internalID: 6380477782241273461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_65
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 950
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399f1c166ece44840800000000000000
+      internalID: 5207547543373871507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_66
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1016
+        width: 64
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745f41ace5bfd0690800000000000000
+      internalID: -7634169408787253945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_67
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 996
+        width: 208
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8ef0913e3f90940800000000000000
+      internalID: 5263005796262734003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_68
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 988
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcef3f7ceb139c230800000000000000
+      internalID: 3659510867683442379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_69
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1010
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5100ce3c79acc920800000000000000
+      internalID: 3011968601897828699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_70
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 948
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41960ca08f4eb9f0800000000000000
+      internalID: -450835498629951158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_71
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 975
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8a0aa8ed20558e0800000000000000
+      internalID: -1705453729058084697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_72
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 963
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac00dfeca634900d0800000000000000
+      internalID: -3456157113011863350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_73
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 890
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b0126e17dd5e320800000000000000
+      internalID: 2586717042256186207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_74
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 963
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37cb3ca8101367b80800000000000000
+      internalID: -8397470572492899213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_75
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 920
+        width: 80
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf895b64e7248d970800000000000000
+      internalID: 8779840583678400763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_76
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 920
+        width: 80
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d09122c107b3d540800000000000000
+      internalID: 5031566426882805969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_77
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 714
+        width: 248
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16fa9a60b0cc3220800000000000000
+      internalID: 2467058559827506718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_78
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 690
+        width: 144
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e711058080f23cf0800000000000000
+      internalID: -273892192538257437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_79
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 920
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb4b4242e1e2bef0800000000000000
+      internalID: -93764280330269714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_80
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 888
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d702b23c2df404d70800000000000000
+      internalID: 9025301419886583933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_81
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 697
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f2e1aaef99232c0800000000000000
+      internalID: -4453327762461151345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_82
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 702
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3885d1e055cd09d60800000000000000
+      internalID: 7895052404647614595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_83
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 696
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9311d1e14d71fc0800000000000000
+      internalID: -3524114957592348217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_84
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 642
+        width: 128
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067313cea520c2740800000000000000
+      internalID: 5128476665201112928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_85
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 644
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa1edafc8f965530800000000000000
+      internalID: 3843434759860394744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_86
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 516
+        width: 66
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a69d18abf3f58e10800000000000000
+      internalID: 2199432255223207590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_87
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 500
+        width: 66
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1fe13398158f9920800000000000000
+      internalID: 2999262217447272223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_88
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 561
+        width: 52
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e518f11ad6a3c60800000000000000
+      internalID: 7798666243531169419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_89
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 561
+        width: 52
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286ef5efaf62ce870800000000000000
+      internalID: 8713382238506444418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_90
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 533
+        width: 48
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55fe7357a6cdab6c0800000000000000
+      internalID: -4126743758740394155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_91
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 533
+        width: 48
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787d465f46dec7890800000000000000
+      internalID: -7458825864962844793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_92
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 496
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ee02eddfa3b3cc0800000000000000
+      internalID: -3730323004318487009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_93
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 507
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d1367699872ff80800000000000000
+      internalID: -8074258581661999816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_94
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 610
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b2d10704a52fc840800000000000000
+      internalID: 5246453477332341433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_95
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 384
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2600bb23028e47e80800000000000000
+      internalID: -8181659398037634974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_96
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 349
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e050bc6f5b57ca0800000000000000
+      internalID: -6019705255338111357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_97
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 349
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205b7620d37bf9680800000000000000
+      internalID: -8746070478668974846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_98
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 384
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd23cf77ac531490800000000000000
+      internalID: -7776770257065923137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_99
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 361
+        width: 96
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9394a6ca42a96ef80800000000000000
+      internalID: -8077599399340259015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_100
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 398
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead0081fffe090cd0800000000000000
+      internalID: -2591523618143859282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_101
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 361
+        width: 60
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014be64ee8d1e2e40800000000000000
+      internalID: 5633472683442091024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_102
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 277
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0bd4e1340a6b9c0800000000000000
+      internalID: -3911763016193036035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_103
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 264
+        width: 46
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac3e39cf5642c1b0800000000000000
+      internalID: -5637866406302303066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_104
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 283
+        width: 62
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af892c5925e86920800000000000000
+      internalID: 2983886718935601064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_105
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 248
+        width: 64
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24bdb61994bf97b0800000000000000
+      internalID: -5215251273867217876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_106
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 249
+        width: 26
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5670c7832276d10800000000000000
+      internalID: 2118699775695480277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_107
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 56
+        width: 24
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f44c4abadc0f2b0800000000000000
+      internalID: -5552712203460391106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_108
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 57
+        width: 24
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28507f8a07e0fce0800000000000000
+      internalID: -1373343853805807574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Game_Dimension_Collection_109
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 4
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bdf6040f6fbeaba0800000000000000
+      internalID: -6075708363746378313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2c97b6ab69ae68b46b0bade5a060f63b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      End_Game_Dimension_Collection_0: -1304222903672149648
+      End_Game_Dimension_Collection_1: 8048234757266273452
+      End_Game_Dimension_Collection_10: -2398876841553090646
+      End_Game_Dimension_Collection_100: -2591523618143859282
+      End_Game_Dimension_Collection_101: 5633472683442091024
+      End_Game_Dimension_Collection_102: -3911763016193036035
+      End_Game_Dimension_Collection_103: -5637866406302303066
+      End_Game_Dimension_Collection_104: 2983886718935601064
+      End_Game_Dimension_Collection_105: -5215251273867217876
+      End_Game_Dimension_Collection_106: 2118699775695480277
+      End_Game_Dimension_Collection_107: -5552712203460391106
+      End_Game_Dimension_Collection_108: -1373343853805807574
+      End_Game_Dimension_Collection_109: -6075708363746378313
+      End_Game_Dimension_Collection_11: 285399985606230516
+      End_Game_Dimension_Collection_12: -8413012103471794741
+      End_Game_Dimension_Collection_13: 2605735903437958732
+      End_Game_Dimension_Collection_14: 7649370336721955764
+      End_Game_Dimension_Collection_15: 1993113645224475825
+      End_Game_Dimension_Collection_16: -2141473255483542654
+      End_Game_Dimension_Collection_17: -3734083910204890118
+      End_Game_Dimension_Collection_18: 2725113482578114922
+      End_Game_Dimension_Collection_19: 3710669477457149655
+      End_Game_Dimension_Collection_2: 2818632302524605361
+      End_Game_Dimension_Collection_20: -128140481655187608
+      End_Game_Dimension_Collection_21: -8106353234658479958
+      End_Game_Dimension_Collection_22: 5992222113183756724
+      End_Game_Dimension_Collection_23: 7381870662071200150
+      End_Game_Dimension_Collection_24: 4814709736489899470
+      End_Game_Dimension_Collection_25: 5948875987830680449
+      End_Game_Dimension_Collection_26: -5063672471306024496
+      End_Game_Dimension_Collection_27: 3319252604950130621
+      End_Game_Dimension_Collection_28: 4757903767941141806
+      End_Game_Dimension_Collection_29: 5412869552207463662
+      End_Game_Dimension_Collection_3: -8136129021835931760
+      End_Game_Dimension_Collection_30: 9137696391838713291
+      End_Game_Dimension_Collection_31: 4102585316844489919
+      End_Game_Dimension_Collection_32: -1759088369438185895
+      End_Game_Dimension_Collection_33: 5933908795820763151
+      End_Game_Dimension_Collection_34: 8291879248633784096
+      End_Game_Dimension_Collection_35: 1965403250664007804
+      End_Game_Dimension_Collection_36: -7105880687212103135
+      End_Game_Dimension_Collection_37: -1242772085205211010
+      End_Game_Dimension_Collection_38: 5823763215894613196
+      End_Game_Dimension_Collection_39: 8785281304359392995
+      End_Game_Dimension_Collection_4: 3916854776321158678
+      End_Game_Dimension_Collection_40: -7786664358697727700
+      End_Game_Dimension_Collection_41: -213823254531100806
+      End_Game_Dimension_Collection_42: -3802893075463495194
+      End_Game_Dimension_Collection_43: -8807526799602774179
+      End_Game_Dimension_Collection_44: -172002927959977381
+      End_Game_Dimension_Collection_45: 1771945850721388034
+      End_Game_Dimension_Collection_46: -777843902526509424
+      End_Game_Dimension_Collection_47: -894710969580711923
+      End_Game_Dimension_Collection_48: -8021024578488029823
+      End_Game_Dimension_Collection_49: -662000853909269971
+      End_Game_Dimension_Collection_5: 7112061433958678873
+      End_Game_Dimension_Collection_50: 6515946394741930355
+      End_Game_Dimension_Collection_51: 8911917463437067507
+      End_Game_Dimension_Collection_52: -6427844131471298030
+      End_Game_Dimension_Collection_53: 1261966976095924006
+      End_Game_Dimension_Collection_54: -1393047382357134137
+      End_Game_Dimension_Collection_55: -3415721074866680850
+      End_Game_Dimension_Collection_56: 1456691750407051219
+      End_Game_Dimension_Collection_57: -5175797761762533296
+      End_Game_Dimension_Collection_58: -5491611498701283920
+      End_Game_Dimension_Collection_59: -1760522941770450231
+      End_Game_Dimension_Collection_6: -2733663511350189563
+      End_Game_Dimension_Collection_60: 2239918774181232862
+      End_Game_Dimension_Collection_61: 2367984531175796035
+      End_Game_Dimension_Collection_62: 2756282906417045878
+      End_Game_Dimension_Collection_63: 4593030673400909595
+      End_Game_Dimension_Collection_64: 6380477782241273461
+      End_Game_Dimension_Collection_65: 5207547543373871507
+      End_Game_Dimension_Collection_66: -7634169408787253945
+      End_Game_Dimension_Collection_67: 5263005796262734003
+      End_Game_Dimension_Collection_68: 3659510867683442379
+      End_Game_Dimension_Collection_69: 3011968601897828699
+      End_Game_Dimension_Collection_7: -2074265532408543569
+      End_Game_Dimension_Collection_70: -450835498629951158
+      End_Game_Dimension_Collection_71: -1705453729058084697
+      End_Game_Dimension_Collection_72: -3456157113011863350
+      End_Game_Dimension_Collection_73: 2586717042256186207
+      End_Game_Dimension_Collection_74: -8397470572492899213
+      End_Game_Dimension_Collection_75: 8779840583678400763
+      End_Game_Dimension_Collection_76: 5031566426882805969
+      End_Game_Dimension_Collection_77: 2467058559827506718
+      End_Game_Dimension_Collection_78: -273892192538257437
+      End_Game_Dimension_Collection_79: -93764280330269714
+      End_Game_Dimension_Collection_8: -4342751196544902141
+      End_Game_Dimension_Collection_80: 9025301419886583933
+      End_Game_Dimension_Collection_81: -4453327762461151345
+      End_Game_Dimension_Collection_82: 7895052404647614595
+      End_Game_Dimension_Collection_83: -3524114957592348217
+      End_Game_Dimension_Collection_84: 5128476665201112928
+      End_Game_Dimension_Collection_85: 3843434759860394744
+      End_Game_Dimension_Collection_86: 2199432255223207590
+      End_Game_Dimension_Collection_87: 2999262217447272223
+      End_Game_Dimension_Collection_88: 7798666243531169419
+      End_Game_Dimension_Collection_89: 8713382238506444418
+      End_Game_Dimension_Collection_9: -2294451167896799858
+      End_Game_Dimension_Collection_90: -4126743758740394155
+      End_Game_Dimension_Collection_91: -7458825864962844793
+      End_Game_Dimension_Collection_92: -3730323004318487009
+      End_Game_Dimension_Collection_93: -8074258581661999816
+      End_Game_Dimension_Collection_94: 5246453477332341433
+      End_Game_Dimension_Collection_95: -8181659398037634974
+      End_Game_Dimension_Collection_96: -6019705255338111357
+      End_Game_Dimension_Collection_97: -8746070478668974846
+      End_Game_Dimension_Collection_98: -7776770257065923137
+      End_Game_Dimension_Collection_99: -8077599399340259015
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

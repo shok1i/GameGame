@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8476268559429812935}
   - component: {fileID: 7180352144053188726}
   - component: {fileID: 2833214687764304360}
-  - component: {fileID: 1303363440546521752}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -135,18 +134,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 11}
   m_EdgeRadius: 0
---- !u!114 &1303363440546521752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5218087188155257658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7377d37dcef104a6699bb098ee571c10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8763855321667075340
 GameObject:
   m_ObjectHideFlags: 0
@@ -157,7 +144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2971997772427352235}
   m_Layer: 0
-  m_Name: Doors
+  m_Name: TestDoors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
