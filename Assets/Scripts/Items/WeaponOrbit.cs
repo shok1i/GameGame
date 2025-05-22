@@ -8,6 +8,11 @@ public class WeaponOrbit : MonoBehaviour
 
     private float currentAngle = 0f;
 
+    void Start()
+    {
+        target = GameObject.Find("Player").transform;
+    }
+
     void Update()
     {
         if (target == null) return;
