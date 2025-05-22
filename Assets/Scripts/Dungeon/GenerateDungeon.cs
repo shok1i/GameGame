@@ -28,6 +28,8 @@ public class GenerateDungeon : MonoBehaviour {
         return roomsAddress;
     }
     public int[,] getGeneratedMatrix(uint seed = 0){
+        seed = (uint)PlayerPrefs.GetInt("Seed");
+        Debug.Log("Get from Prefs seed " + seed);
         matrix = new int[heightMatrix,weightMatrix];
         for(int i = 0; i < heightMatrix; i++){
             for (int j = 0; j < weightMatrix; j++) {

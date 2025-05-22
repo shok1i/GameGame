@@ -13,9 +13,11 @@ public class EnemyManager : MonoBehaviour
     private float distance;
 
     private bool isAttacking = false;
+    private bool isDeath = false;
 
     void Start()
     {
+        target = GameObject.FindWithTag("Player").gameObject;
         _animator = GetComponent<Animator>();
     }
 
@@ -40,11 +42,11 @@ public class EnemyManager : MonoBehaviour
             {
                 if (!isAttacking)
                 {
-                    StartCoroutine(AttackCoroutine());
                     isAttacking = true;
+                    StartCoroutine(AttackCoroutine());
                 }
             }
-            else if (!isAttacking)
+            else if (!isAttacking && !isDeath)
             {
                 transform.position = Vector2.MoveTowards(this.transform.position, target.transform.position, speed * Time.deltaTime);
                 _animator.SetBool("IsRunning", true);
@@ -57,44 +59,30 @@ public class EnemyManager : MonoBehaviour
     }
     IEnumerator AttackCoroutine()
     {
-
+        isAttacking = true;
         _animator.SetBool("IsAttacking", true);
         _animator.SetBool("IsRunning", false);
-
-        AnimatorStateInfo state = _animator.GetCurrentAnimatorStateInfo(0);
-        while (!state.IsName("Attack"))
-        {
-            yield return null;
-            state = _animator.GetCurrentAnimatorStateInfo(0);
-        }
-
-        while (state.normalizedTime < 1f)
-        {
-            yield return null;
-            state = _animator.GetCurrentAnimatorStateInfo(0);
-        }
+        yield return new WaitUntil(() => _animator.GetCurrentAnimatorStateInfo(0).IsName("Attack"));
+        yield return new WaitUntil(() => _animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1f);
         if (distance < distanceToAttack)
         {
             _attack();
         }
         _animator.SetBool("IsAttacking", false);
+        yield return new WaitForSeconds(0.5f);
         isAttacking = false;
     }
 
     IEnumerator DeathCoroutine()
     {
-
         _animator.SetBool("IsAttacking", false);
-        
         _animator.SetBool("IsRunning", false);
-
         AnimatorStateInfo state = _animator.GetCurrentAnimatorStateInfo(0);
         while (!state.IsName("Death"))
         {
             yield return null;
             state = _animator.GetCurrentAnimatorStateInfo(0);
         }
-
         while (state.normalizedTime < 1f)
         {
             yield return null;
@@ -115,6 +103,7 @@ public class EnemyManager : MonoBehaviour
         if (health <= 0)
         {
             _animator.SetBool("IsDeath", true);
+            isDeath = true;
             StartCoroutine(DeathCoroutine());
             
         }

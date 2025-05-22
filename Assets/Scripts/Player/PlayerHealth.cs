@@ -29,7 +29,10 @@ public class PlayerHealth : MonoBehaviour
             Die();
         }
     }
-
+    public float getHealth()
+    {
+        return currentHealth;
+    }
     private void Die()
     {
         Debug.Log("Press F to pay respect");

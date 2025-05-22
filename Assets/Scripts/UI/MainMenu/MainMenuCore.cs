@@ -1,18 +1,33 @@
-using System;
+using System.IO;
+using TMPro;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
+
+public class PlayerFileData
+{
+    public uint seed;
+    public int level;
+    public float health;
+}
+
+
 
 public class MainMenuCore : MonoBehaviour
 {
     public GameObject mainBtnBg;
-    
+    public GameObject savedDataPrefab;
+    public GameObject scrollViewContainer;
     private Vector3 _changePos = Vector3.zero;
     private bool _enterFlag = false;
     private bool _inSettings = false;
     private Animator _animator;
-    
+
     void Start()
     {
+        readFiles();
         _animator = gameObject.GetComponent<Animator>();
     }
 
@@ -33,7 +48,7 @@ public class MainMenuCore : MonoBehaviour
         _inSettings = false;
         _animator.SetBool("SettingsExit", false);
     }
-    
+
     // For LerpAnimation
     void Update()
     {
@@ -52,13 +67,13 @@ public class MainMenuCore : MonoBehaviour
     void SettingsExitHandle()
     {
         if (!_inSettings) return;
-        
+
         if (!Input.GetKeyDown(KeyCode.Escape)) return;
-        
+
         _animator.SetBool("SettingsExit", true);
     }
-    
-    
+
+
     // Enter Function
     private void EnterHandler(int num)
     {
@@ -118,5 +133,46 @@ public class MainMenuCore : MonoBehaviour
     {
         if (!_enterFlag) return;
         _animator.SetTrigger("SettingsEnter");
+    }
+    private void readFiles()
+    {
+        string folderPath = Application.persistentDataPath + "/savedGames";
+        if (Directory.Exists(folderPath))
+        {
+            string[] files = Directory.GetFiles(folderPath, "*.json");
+            foreach (string filePath in files)
+            {
+                string json = System.IO.File.ReadAllText(filePath);
+                PlayerData data = JsonUtility.FromJson<PlayerData>(json);
+                var savedData = Instantiate(savedDataPrefab, parent: scrollViewContainer.transform);;
+                TextMeshProUGUI[] texts = savedData.GetComponentsInChildren<TextMeshProUGUI>();
+                texts[0].text = texts[0].text.ToString().Replace("\\", "").Replace("TIME", filePath.ToString().Replace("playerData", "").Replace(".json", "").Replace("_", " ").Replace(folderPath, ""));
+                texts[1].text = texts[1].text.ToString().Replace("SEED", data.seed.ToString());
+                texts[2].text = texts[2].text.ToString().Replace("LEVEL", data.level.ToString());
+                texts[3].text = texts[3].text.ToString().Replace("FILENAME", filePath);
+                Debug.Log(savedData.GetComponent<Button>());
+                savedData.GetComponent<Button>().onClick.AddListener(() =>
+                {
+                    Debug.Log(savedData.GetComponent<Button>());
+                    loadSave((int)data.seed, data.level, data.health);
+                });
+                Debug.Log(texts[3].text.Replace(folderPath, "").Replace("\\", ""));
+                
+            }
+        }
+        else
+        {
+            Directory.CreateDirectory(folderPath);
+            // дополнить текст
+            return;
+        }
+    }
+
+    private void loadSave(int seed, int level, float health)
+    {
+        PlayerPrefs.SetFloat("Health", health);
+        PlayerPrefs.SetInt("Seed", seed);
+        PlayerPrefs.SetInt("Level", level);
+        SceneManager.LoadScene("SceneForRooms");
     }
 }
