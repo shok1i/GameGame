@@ -2197,8 +2197,11 @@ MonoBehaviour:
   damage: 10
   target: {fileID: 482497375}
   speed: 5
-  distanceToFollow: 20
-  distanceToAttack: 4
+  distanceToFollow: 8
+  distanceToAttack: 5
+  isDistanceFighter: 1
+  bulletPrefab: {fileID: 6996635163932502656, guid: 08249717c50000646a4ffc8a020e299d, type: 3}
+  bulletSpeed: 5
 --- !u!61 &987291582
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4316,6 +4319,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 482497375}
+    - target: {fileID: 9156890697390143806, guid: 5087e4e0344378d49bb29ff0c4450b4b, type: 3}
+      propertyPath: isDistanceFighter
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
