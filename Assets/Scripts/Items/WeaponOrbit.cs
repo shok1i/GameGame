@@ -16,27 +16,22 @@ public class WeaponOrbit : MonoBehaviour
     void Update()
     {
         if (target == null) return;
-
+        if (target.transform.position.x < transform.position.x)
+        {
+            gameObject.GetComponent<SpriteRenderer>().flipY = false;
+        }
+        else
+        {
+            gameObject.GetComponent<SpriteRenderer>().flipY = true;
+        }
         Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mouseWorldPos.z = 0f;
-
         Vector3 direction = mouseWorldPos - target.position;
-
-        // Увеличиваем угол вращения
         currentAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        //currentAngle += orbitSpeed * Time.deltaTime;
         if (currentAngle >= 360f) currentAngle -= 360f;
-
-        // Переводим угол в радианы
         float angleRad = currentAngle * Mathf.Deg2Rad;
-
-        // Вычисляем позицию оружия вокруг цели
         Vector3 offset = new Vector3(Mathf.Cos(angleRad), Mathf.Sin(angleRad), 0) * orbitRadius;
-
-        // Обновляем позицию оружия
         transform.position = target.position + offset;
-
-        // Поворачиваем оружие в сторону курсора мыши (для 2D)
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, angle);
     }

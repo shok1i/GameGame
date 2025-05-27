@@ -7,28 +7,38 @@ public class RoomsScript : MonoBehaviour
     public GameObject player;
     public GameObject enemiesContainer;
     public GameObject[] enemiesPrefabs;
+    private RoomsManager _roomsManager;
     private bool _roomCleared = false;
 
     void Start()
     {
+        _roomsManager = GameObject.Find("RoomsManager").GetComponent<RoomsManager>();
         gates.SetActive(false);
         player = GameObject.FindWithTag("Player").gameObject;
-        Debug.Log(player.transform.position + " " + gameObject.transform.position);
-        Debug.Log("Room " + gameObject + " " + IsInside(player.transform, gameObject.transform, new Vector2(20,36)));
+        Debug.Log(_roomsManager);
+        var enemies = Instantiate(enemiesPrefabs[Random.Range(0, enemiesPrefabs.Length)], transform.position, Quaternion.identity, enemiesContainer.transform);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!_roomCleared && IsInside(player.transform, gameObject.transform, new Vector2(20, 36)) && !gates.activeSelf)
+        if (!_roomCleared && IsInside(player.transform, gameObject.transform, new Vector2(20, 25)) && !gates.activeSelf)
         {
             gates.SetActive(true);
             // саунд закрытия дверей
-            var enemies = Instantiate(enemiesPrefabs[Random.Range(0, enemiesPrefabs.Length)], transform.position, Quaternion.identity, enemiesContainer.transform);
+            
         }
-        if (enemiesContainer.transform.GetChild(0).transform.childCount == 0)
+        if (enemiesContainer.transform.GetChild(0).transform.childCount == 0 && !_roomCleared)
         {
             _roomCleared = true;
+            _roomsManager.addClearedRoom();
+            Debug.Log(_roomsManager.getClearedRooms() + " " + _roomsManager.getRoomsOnLevel());
+            if (_roomsManager.getClearedRooms() == _roomsManager.getRoomsOnLevel())
+            {
+                _roomsManager.addLevel();
+                PlayerPrefs.SetInt("Level", _roomsManager.getLevel());
+                Debug.Log("УРА ПОБЕДА");
+            }
             gates.SetActive(false);
             // награды
             // саунд открытия дверей

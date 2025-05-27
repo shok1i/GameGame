@@ -16,6 +16,7 @@ public class PauseMenu : MonoBehaviour
     public AudioSource audioSource;
     public GameObject player;
     public GameObject _dungeonManager;
+
     private GenerateDungeon _generateDungeon;
     private bool _isPaused = false;
 
@@ -65,7 +66,7 @@ public class PauseMenu : MonoBehaviour
         PlayerData data = new PlayerData
         {
             seed = dungeonSeed,
-            level = 0,
+            level = transform.parent.gameObject.GetComponentInChildren<RoomsManager>().getLevel(),
             health = player.GetComponent<PlayerManager>().GetComponent<PlayerHealth>().getHealth()
         };
 

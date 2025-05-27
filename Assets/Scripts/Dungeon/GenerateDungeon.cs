@@ -29,6 +29,7 @@ public class GenerateDungeon : MonoBehaviour {
     }
     public int[,] getGeneratedMatrix(uint seed = 0){
         seed = (uint)PlayerPrefs.GetInt("Seed");
+        PlayerPrefs.SetInt("Seed", 0);
         Debug.Log("Get from Prefs seed " + seed);
         matrix = new int[heightMatrix,weightMatrix];
         for(int i = 0; i < heightMatrix; i++){
