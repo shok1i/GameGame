@@ -75,6 +75,7 @@ public class EnemyManager : MonoBehaviour
 
     IEnumerator DeathCoroutine()
     {
+        Debug.Log("deleting object " + gameObject);
         _animator.SetBool("IsAttacking", false);
         _animator.SetBool("IsRunning", false);
         AnimatorStateInfo state = _animator.GetCurrentAnimatorStateInfo(0);
@@ -88,7 +89,8 @@ public class EnemyManager : MonoBehaviour
             yield return null;
             state = _animator.GetCurrentAnimatorStateInfo(0);
         }
-        yield return new WaitForSeconds(1f);
+        Debug.Log("Deleted object" + gameObject);
+        yield return new WaitForSeconds(0.2f);
         Destroy(gameObject);
         isAttacking = false;
     }
@@ -103,6 +105,7 @@ public class EnemyManager : MonoBehaviour
         if (health <= 0)
         {
             _animator.SetBool("IsDeath", true);
+            Debug.Log("IsDeath for " + gameObject + " is true");
             isDeath = true;
             StartCoroutine(DeathCoroutine());
             
