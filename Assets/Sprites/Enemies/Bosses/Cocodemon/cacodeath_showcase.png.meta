@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 83a993677f125e04ebf3a2d793449a93
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4922724304655431843
+    second: cacodeath_showcase_0
+  - first:
+      213: -4297340464244096681
+    second: cacodeath_showcase_1
+  - first:
+      213: 5847274567861296199
+    second: cacodeath_showcase_2
+  - first:
+      213: -6204360952218345149
+    second: cacodeath_showcase_3
+  - first:
+      213: -7839016405240574700
+    second: cacodeath_showcase_4
+  - first:
+      213: 5202359338706642675
+    second: cacodeath_showcase_5
+  - first:
+      213: -1637252364796511093
+    second: cacodeath_showcase_6
+  - first:
+      213: 7093846785904859137
+    second: cacodeath_showcase_7
+  - first:
+      213: 3596587333005563529
+    second: cacodeath_showcase_8
+  - first:
+      213: 1894991977253265406
+    second: cacodeath_showcase_9
+  - first:
+      213: 3520405268132091882
+    second: cacodeath_showcase_10
+  - first:
+      213: -7506158183852632433
+    second: cacodeath_showcase_11
+  - first:
+      213: 3550344320471652682
+    second: cacodeath_showcase_12
+  - first:
+      213: -7168307971424104540
+    second: cacodeath_showcase_13
+  - first:
+      213: -5976148724103875690
+    second: cacodeath_showcase_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cacodeath_showcase_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 287
+        width: 134
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a83b226ca7015440800000000000000
+      internalID: 4922724304655431843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodeath_showcase_1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 279
+        width: 134
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75181d5bd97cc54c0800000000000000
+      internalID: -4297340464244096681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodeath_showcase_2
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 275
+        width: 132
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c5c814d31b52150800000000000000
+      internalID: 5847274567861296199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodeath_showcase_3
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 275
+        width: 132
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341a8b8069ea5e9a0800000000000000
+      internalID: -6204360952218345149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodeath_showcase_4
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 277
+        width: 134
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d0d21cc18363390800000000000000
+      internalID: -7839016405240574700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodeath_showcase_5
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 275
+        width: 134
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6ab89514e723840800000000000000
+      internalID: 5202359338706642675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodeath_showcase_6
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 283
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8cb2a416af4749e0800000000000000
+      internalID: -1637252364796511093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodeath_showcase_7
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 281
+        width: 132
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108d7e42118627260800000000000000
+      internalID: 7093846785904859137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodeath_showcase_8
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 281
+        width: 152
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9865773bf15a9e130800000000000000
+      internalID: 3596587333005563529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodeath_showcase_9
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 59
+        width: 138
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff5568c92d5c4a10800000000000000
+      internalID: 1894991977253265406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodeath_showcase_10
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 57
+        width: 150
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae75d6080fdfad030800000000000000
+      internalID: 3520405268132091882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodeath_showcase_11
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 55
+        width: 166
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86929fa6e4c4d790800000000000000
+      internalID: -7506158183852632433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodeath_showcase_12
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 55
+        width: 170
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49d904595b554130800000000000000
+      internalID: 3550344320471652682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodeath_showcase_13
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 47
+        width: 180
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af4aaa11ed058c90800000000000000
+      internalID: -7168307971424104540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cacodeath_showcase_14
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 47
+        width: 180
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69372eef564701da0800000000000000
+      internalID: -5976148724103875690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cacodeath_showcase_0: 4922724304655431843
+      cacodeath_showcase_1: -4297340464244096681
+      cacodeath_showcase_10: 3520405268132091882
+      cacodeath_showcase_11: -7506158183852632433
+      cacodeath_showcase_12: 3550344320471652682
+      cacodeath_showcase_13: -7168307971424104540
+      cacodeath_showcase_14: -5976148724103875690
+      cacodeath_showcase_2: 5847274567861296199
+      cacodeath_showcase_3: -6204360952218345149
+      cacodeath_showcase_4: -7839016405240574700
+      cacodeath_showcase_5: 5202359338706642675
+      cacodeath_showcase_6: -1637252364796511093
+      cacodeath_showcase_7: 7093846785904859137
+      cacodeath_showcase_8: 3596587333005563529
+      cacodeath_showcase_9: 1894991977253265406
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

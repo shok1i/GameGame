@@ -17,6 +17,7 @@ public class EnemyManager : MonoBehaviour
     public GameObject bulletPrefab;
     public float bulletSpeed;
     private float distance;
+    private Rigidbody2D rb;
 
     private bool isAttacking = false;
     private bool isDeath = false;
@@ -25,6 +26,7 @@ public class EnemyManager : MonoBehaviour
     {
         target = GameObject.FindWithTag("Player").gameObject;
         _animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
@@ -54,7 +56,8 @@ public class EnemyManager : MonoBehaviour
                 }
                 if (!isAttacking && !isDeath)
                 {
-                    transform.position = Vector2.MoveTowards(this.transform.position, target.transform.position, speed * Time.deltaTime);
+                    rb.MovePosition((Vector2)transform.position + direction * speed * Time.deltaTime);
+                    //transform.position = Vector2.MoveTowards(this.transform.position, target.transform.position, speed * Time.deltaTime);
                     _animator.SetBool("IsRunning", true);
                 }
             }
@@ -75,7 +78,8 @@ public class EnemyManager : MonoBehaviour
             {
                 Vector2 directionAway = (transform.position - target.transform.position).normalized;
                 Vector2 targetPos = (Vector2)transform.position + directionAway * speed * Time.deltaTime;
-                transform.position = Vector2.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
+                rb.MovePosition((Vector2)transform.position + direction * speed * Time.deltaTime);
+                // transform.position = Vector2.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
                 _animator.SetBool("IsRunning", true);
             }
             else if (distance <= distanceToFollow)
@@ -91,7 +95,8 @@ public class EnemyManager : MonoBehaviour
                 }
                 else
                 {
-                    transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
+                    rb.MovePosition((Vector2)transform.position + direction * speed * Time.deltaTime);
+                    //transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
                     _animator.SetBool("IsRunning", true);
                     isAttacking = false;
                 }
@@ -161,7 +166,7 @@ public class EnemyManager : MonoBehaviour
     }
 
 
-    private void _distanceAttack()
+    protected virtual void _distanceAttack()
     {
         Vector2 direction = (target.transform.position - gameObject.transform.position).normalized;
         GameObject bullet = Instantiate(bulletPrefab, gameObject.transform.position, Quaternion.identity);

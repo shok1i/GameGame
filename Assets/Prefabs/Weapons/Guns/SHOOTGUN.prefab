@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 722039377308062933}
   - component: {fileID: 7315284471586782279}
+  - component: {fileID: -5204984798034325797}
   - component: {fileID: 2660849552720132326}
-  - component: {fileID: 2905479702844200160}
+  - component: {fileID: 4612660278902143485}
   m_Layer: 0
   m_Name: SHOOTGUN
   m_TagString: Untagged
@@ -89,6 +90,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-5204984798034325797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8794749620568819528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea235cae558a26344a23fde38fd6d4c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 0}
+  firePoint: {fileID: 0}
+  isShooting: 0
+  bulletSpeed: 10
+  fireRate: 0.2
 --- !u!114 &2660849552720132326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104,7 +122,7 @@ MonoBehaviour:
   target: {fileID: 0}
   orbitRadius: 1.5
   orbitSpeed: 180
---- !u!114 &2905479702844200160
+--- !u!114 &4612660278902143485
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -113,11 +131,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 8794749620568819528}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b35ba102a9728ca42a7ca6df50403ba9, type: 3}
+  m_Script: {fileID: 11500000, guid: ac476638b3d42444c9b2d4cc9d08de36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 6996635163932502656, guid: 155be682ef78e8f4484fc247cb3d8288, type: 3}
-  firePoint: {fileID: 722039377308062933}
-  isShooting: 1
-  bulletSpeed: 10
-  fireRate: 0.2
+  outlineColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  outlineScaleMultiplier: 1.1

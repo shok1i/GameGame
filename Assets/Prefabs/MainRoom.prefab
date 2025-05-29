@@ -1793,6 +1793,8 @@ MonoBehaviour:
   enemiesContainer: {fileID: 2341516391730452255}
   enemiesPrefabs:
   - {fileID: 4554895285606002009, guid: 9227bc614e4bfd04eb0b939c3e378bf0, type: 3}
+  bossesPrefabs:
+  - {fileID: 60575596894474720, guid: dac44f1154eeb3d4b8ff69eb92f0905e, type: 3}
 --- !u!1 &4525332956464316562
 GameObject:
   m_ObjectHideFlags: 0

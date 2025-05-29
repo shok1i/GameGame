@@ -28,7 +28,7 @@ public class BaseWeaponsClass : MonoBehaviour
         }
     }
 
-    void Shoot()
+    protected virtual void Shoot()
     {
         Vector3 mousePos = Input.mousePosition;
         mousePos.z = 0f;

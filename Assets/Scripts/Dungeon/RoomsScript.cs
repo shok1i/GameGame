@@ -7,6 +7,7 @@ public class RoomsScript : MonoBehaviour
     public GameObject player;
     public GameObject enemiesContainer;
     public GameObject[] enemiesPrefabs;
+    public GameObject[] bossesPrefabs;
     private RoomsManager _roomsManager;
     private bool _roomCleared = false;
 
@@ -16,7 +17,6 @@ public class RoomsScript : MonoBehaviour
         gates.SetActive(false);
         player = GameObject.FindWithTag("Player").gameObject;
         Debug.Log(_roomsManager);
-        var enemies = Instantiate(enemiesPrefabs[Random.Range(0, enemiesPrefabs.Length)], transform.position, Quaternion.identity, enemiesContainer.transform);
     }
 
     // Update is called once per frame
@@ -25,8 +25,13 @@ public class RoomsScript : MonoBehaviour
         if (!_roomCleared && IsInside(player.transform, gameObject.transform, new Vector2(20, 25)) && !gates.activeSelf)
         {
             gates.SetActive(true);
+            if (_roomsManager.getClearedRooms() + 1 == _roomsManager.getRoomsOnLevel()) {
+                var enemies = Instantiate(bossesPrefabs[Random.Range(0, enemiesPrefabs.Length)], transform.position, Quaternion.identity, enemiesContainer.transform);
+            }
+            else {
+                var enemies = Instantiate(enemiesPrefabs[Random.Range(0, enemiesPrefabs.Length)], transform.position, Quaternion.identity, enemiesContainer.transform);
+            }
             // саунд закрытия дверей
-            
         }
         if (enemiesContainer.transform.GetChild(0).transform.childCount == 0 && !_roomCleared)
         {

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7315284471586782279}
   - component: {fileID: 2660849552720132326}
   - component: {fileID: 2905479702844200160}
+  - component: {fileID: -305258271716921894}
   m_Layer: 0
   m_Name: P90
   m_TagString: Untagged
@@ -121,3 +122,17 @@ MonoBehaviour:
   isShooting: 1
   bulletSpeed: 10
   fireRate: 0.2
+--- !u!114 &-305258271716921894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8794749620568819528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac476638b3d42444c9b2d4cc9d08de36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  outlineScaleMultiplier: 1.1

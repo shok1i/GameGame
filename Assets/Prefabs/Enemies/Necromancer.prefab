@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8618967471116682794}
   - component: {fileID: 4795224744589827040}
   - component: {fileID: 3258240463153587242}
+  - component: {fileID: 1800921566159656126}
   m_Layer: 0
   m_Name: Necromancer
   m_TagString: Enemy
@@ -179,3 +180,30 @@ MonoBehaviour:
   isDistanceFighter: 1
   bulletPrefab: {fileID: 6996635163932502656, guid: 08249717c50000646a4ffc8a020e299d, type: 3}
   bulletSpeed: 5
+--- !u!50 &1800921566159656126
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9064366714450634484}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
