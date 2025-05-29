@@ -1,12 +1,44 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &1064163019117780271
+--- !u!1 &7470791446850751170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 514737190870123361}
+  m_Layer: 0
+  m_Name: CocodemonBattle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &514737190870123361
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7470791446850751170}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3983185802477424676}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &3835131517229859576
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 514737190870123361}
     m_Modifications:
     - target: {fileID: 179582862791529180, guid: 2ee247faf4952b347b2d6d4bbfa2660d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14,7 +46,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 179582862791529180, guid: 2ee247faf4952b347b2d6d4bbfa2660d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 179582862791529180, guid: 2ee247faf4952b347b2d6d4bbfa2660d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -50,10 +82,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1014329779889671375, guid: 2ee247faf4952b347b2d6d4bbfa2660d, type: 3}
       propertyPath: m_Name
-      value: Cocodemon Variant
+      value: Cocodemon
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ee247faf4952b347b2d6d4bbfa2660d, type: 3}
+--- !u!4 &3983185802477424676 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 179582862791529180, guid: 2ee247faf4952b347b2d6d4bbfa2660d, type: 3}
+  m_PrefabInstance: {fileID: 3835131517229859576}
+  m_PrefabAsset: {fileID: 0}

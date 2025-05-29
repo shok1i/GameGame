@@ -42,9 +42,11 @@ public class RoomsScript : MonoBehaviour
             {
                 _roomsManager.addLevel();
                 PlayerPrefs.SetInt("Level", _roomsManager.getLevel());
+                gameObject.transform.GetChild(0).gameObject.SetActive(true);
                 Debug.Log("УРА ПОБЕДА");
             }
             gates.SetActive(false);
+            gameObject.GetComponent<RoomsScript>().enabled = false;
             // награды
             // саунд открытия дверей
 
