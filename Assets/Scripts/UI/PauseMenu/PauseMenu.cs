@@ -1,5 +1,6 @@
 using System.IO;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class PlayerData
@@ -57,7 +58,7 @@ public class PauseMenu : MonoBehaviour
     }
     public void QuitGame()
     {
-        Application.Quit();
+        SceneManager.LoadScene("MainMenu");
     }
     public void SaveGame()
     {
