@@ -7,22 +7,38 @@ public class PlayerMovement : MonoBehaviour
     public float playerSpeed;
     public float dashSpeed;
     public float dashCooldown;
-
+    public Joystick joystick;
     private Vector3 _movement;
     private Rigidbody2D _rigidbody2D;
     private bool _canMove = true;
     private bool dashState = true;
+    private bool mobilePlayer = true;
 
 
     // Call once before Start()
-    void Awake()
+    void Start()
     {
+        if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
+        {
+            mobilePlayer = true;
+        }
+        else
+        {
+            //joystick.gameObject.SetActive(false);
+        }
         _rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
-        _movement = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        if (mobilePlayer)
+        {
+            _movement = new Vector2(joystick.Horizontal, joystick.Vertical);
+        }
+        else
+        {
+            _movement = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        }
         DrawMoveDir();
     }
 

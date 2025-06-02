@@ -33,24 +33,31 @@ public class RoomsScript : MonoBehaviour
             }
             // саунд закрытия дверей
         }
-        if (enemiesContainer.transform.GetChild(0).transform.childCount == 0 && !_roomCleared)
+        try
         {
-            _roomCleared = true;
-            _roomsManager.addClearedRoom();
-            Debug.Log(_roomsManager.getClearedRooms() + " " + _roomsManager.getRoomsOnLevel());
-            if (_roomsManager.getClearedRooms() == _roomsManager.getRoomsOnLevel())
+            if (enemiesContainer.transform.GetChild(0).transform.childCount == 0 && !_roomCleared)
             {
-                _roomsManager.addLevel();
-                PlayerPrefs.SetInt("Level", _roomsManager.getLevel());
-                gameObject.transform.GetChild(0).gameObject.SetActive(true);
-                Debug.Log("УРА ПОБЕДА");
-            }
-            gates.SetActive(false);
-            gameObject.GetComponent<RoomsScript>().enabled = false;
-            // награды
-            // саунд открытия дверей
+                _roomCleared = true;
+                _roomsManager.addClearedRoom();
+                Debug.Log(_roomsManager.getClearedRooms() + " " + _roomsManager.getRoomsOnLevel());
+                if (_roomsManager.getClearedRooms() == _roomsManager.getRoomsOnLevel())
+                {
+                    _roomsManager.addLevel();
+                    PlayerPrefs.SetInt("Level", _roomsManager.getLevel());
+                    gameObject.transform.GetChild(0).gameObject.SetActive(true);
+                    Debug.Log("УРА ПОБЕДА");
+                }
+                gates.SetActive(false);
+                gameObject.GetComponent<RoomsScript>().enabled = false;
+                // награды
+                // саунд открытия дверей
 
-        }        
+            }
+        }
+        catch (System.Exception e)
+        {
+            
+        }     
     }
     
     bool IsInside(Transform inner, Transform outer, Vector2 outerSize)

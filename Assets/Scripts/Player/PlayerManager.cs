@@ -25,13 +25,15 @@ public class PlayerManager : MonoBehaviour
     public float dashSpeed;
     public float dashCooldown;
 
+    public Joystick MoveJoystick;
+    public Joystick ShootJoystick;
 
     // Call once before Start()
     void Awake()
     {
         if (instance == null) instance = this;
         else Destroy(gameObject);
-        
+
         // Add Scripts to player
         playerHealth = gameObject.AddComponent<PlayerHealth>();
         playerAttack = gameObject.AddComponent<PlayerAttack>();
@@ -40,7 +42,7 @@ public class PlayerManager : MonoBehaviour
         playerAnimation = gameObject.AddComponent<PlayerAnimation>();
         playerClosestItem = gameObject.AddComponent<PlayerClosestItem>();
         playerMouseRotation = gameObject.AddComponent<PlayerMouseRotation>();
-        
+
         // Set Data to player scripts
         playerHealth.maxHealth = maxHealth;
         playerMovement.dashSpeed = dashSpeed;
@@ -48,6 +50,9 @@ public class PlayerManager : MonoBehaviour
         playerMovement.dashCooldown = dashCooldown;
         playerInventory.inventorySize = inventorySize;
         playerClosestItem.pickableDistance = pickableDistance;
+        playerMovement.joystick = MoveJoystick;
+        playerMouseRotation._shootJoystick = ShootJoystick;
+        playerMouseRotation._moveJoystick = MoveJoystick;
     }
     // Для обращения других объектов к игроку исползовать
     // // PlayerManager.instance.(и дальше компонент который нам нужен)
