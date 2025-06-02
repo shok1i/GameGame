@@ -12,23 +12,31 @@ public class WeaponOrbit : MonoBehaviour
 
     void Start()
     {
+        shootJoystick = GameObject.FindWithTag("FireStick").gameObject.GetComponent<Joystick>();
         if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
         {
             isMobile = true;
         }
         else
         {
-            isMobile = true;
+            isMobile = false;
         }
-        target = GameObject.Find("Player").transform;
+        target = GameObject.FindWithTag("Player").transform;
     }
 
     void Update()
     {
         if (target == null) return;
-        if (target.transform.position.x < transform.position.x || shootJoystick.Horizontal >= 0f)
+        
+        if (target.position.x < transform.position.x )
         {
             gameObject.GetComponent<SpriteRenderer>().flipY = false;
+        }
+        else if (shootJoystick != null) {
+            if (shootJoystick.Horizontal <= 0.01f)
+            {
+                gameObject.GetComponent<SpriteRenderer>().flipY = false;
+            }
         }
         else
         {
@@ -41,7 +49,8 @@ public class WeaponOrbit : MonoBehaviour
         {
             direction = new Vector3(shootJoystick.Horizontal, shootJoystick.Vertical, target.position.z);
         }
-        else {
+        else
+        {
             direction = mouseWorldPos - target.position;
         }
         currentAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
@@ -51,5 +60,9 @@ public class WeaponOrbit : MonoBehaviour
         transform.position = target.position + offset;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, angle);
+    }
+    public void setTarget(GameObject newTarget)
+    {
+        target = newTarget.transform;
     }
 }

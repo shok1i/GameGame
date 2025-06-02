@@ -5,6 +5,7 @@ public class Bullet : MonoBehaviour
     public float lifetime = 3f;
     public GameObject hitEffectPrefab;
     public AudioClip hitSound;
+    public float damageToEnemy;
     public float effectLifetime = 1f; 
     public bool enemyShooting = false;
     public float enemyDamage;
@@ -59,7 +60,7 @@ public class Bullet : MonoBehaviour
                 audioSource.PlayOneShot(hitSound);
             }
             EnemyManager enemy = other.GetComponent<EnemyManager>();
-            enemy.getDamage(20f);
+            enemy.getDamage(damageToEnemy);
             Destroy(gameObject);
         }
     }

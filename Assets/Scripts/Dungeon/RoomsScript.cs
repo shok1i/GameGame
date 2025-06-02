@@ -6,9 +6,12 @@ public class RoomsScript : MonoBehaviour
     public GameObject gates;
     public GameObject player;
     public GameObject enemiesContainer;
+    public GameObject rewardsContainer;
     public GameObject[] enemiesPrefabs;
     public GameObject[] bossesPrefabs;
+    public GameObject[] rewards;
     private RoomsManager _roomsManager;
+    private GameObject weaponsContainer;
     private bool _roomCleared = false;
 
     void Start()
@@ -16,6 +19,7 @@ public class RoomsScript : MonoBehaviour
         _roomsManager = GameObject.Find("RoomsManager").GetComponent<RoomsManager>();
         gates.SetActive(false);
         player = GameObject.FindWithTag("Player").gameObject;
+        weaponsContainer = GameObject.FindWithTag("WeaponsContainer").gameObject;
         Debug.Log(_roomsManager);
     }
 
@@ -46,10 +50,25 @@ public class RoomsScript : MonoBehaviour
                     PlayerPrefs.SetInt("Level", _roomsManager.getLevel());
                     gameObject.transform.GetChild(0).gameObject.SetActive(true);
                     Debug.Log("УРА ПОБЕДА");
+                    gates.SetActive(false);
+                    gameObject.GetComponent<RoomsScript>().enabled = false;
+                    return;
                 }
                 gates.SetActive(false);
                 gameObject.GetComponent<RoomsScript>().enabled = false;
                 // награды
+                GameObject gun1 = Instantiate(rewards[Random.Range(0, rewards.Length)], rewardsContainer.transform.GetChild(0).position, Quaternion.identity, weaponsContainer.transform);
+                GameObject gun2 = Instantiate(rewards[Random.Range(0, rewards.Length)], rewardsContainer.transform.GetChild(1).position, Quaternion.identity, weaponsContainer.transform);
+
+                gun1.GetComponent<WeaponOrbit>().enabled = false;
+                gun1.GetComponent<BaseWeaponsClass>().enabled = false;
+                gun1.GetComponent<WeaponOutline>().enabled = true;
+                gun1.GetComponent<WeaponOutline>().enableOutline();
+
+                gun2.GetComponent<WeaponOrbit>().enabled = false;
+                gun2.GetComponent<BaseWeaponsClass>().enabled = false;
+                gun2.GetComponent<WeaponOutline>().enabled = true;
+                gun2.GetComponent<WeaponOutline>().enableOutline();
                 // саунд открытия дверей
 
             }

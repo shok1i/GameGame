@@ -103,6 +103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  shootJoystick: {fileID: 0}
   orbitRadius: 1.5
   orbitSpeed: 180
 --- !u!114 &2905479702844200160
@@ -120,8 +121,9 @@ MonoBehaviour:
   bulletPrefab: {fileID: 6996635163932502656, guid: 155be682ef78e8f4484fc247cb3d8288, type: 3}
   firePoint: {fileID: 722039377308062933}
   isShooting: 1
-  bulletSpeed: 10
-  fireRate: 0.2
+  bulletSpeed: 20
+  fireRate: 0.14
+  joystick: {fileID: 0}
 --- !u!114 &-305258271716921894
 MonoBehaviour:
   m_ObjectHideFlags: 0

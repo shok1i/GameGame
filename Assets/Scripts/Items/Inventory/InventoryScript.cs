@@ -22,6 +22,7 @@ public class InventoryScript : MonoBehaviour
             if (weapon)
             {
                 weapon.GetComponent<WeaponOrbit>().enabled = true;
+                weapon.GetComponent<WeaponOrbit>().setTarget(player);
                 weapon.GetComponent<BaseWeaponsClass>().enabled = true;
                 weapon.GetComponent<WeaponOutline>().disableOutline();
                 weapon.GetComponent<WeaponOutline>().enabled = false;
@@ -45,8 +46,10 @@ public class InventoryScript : MonoBehaviour
     {
         foreach (Transform child in weaponsOnFloor.transform)
         {
+            Debug.Log(child + " " + (Vector3.Distance(child.position, player.transform.position)));
             if (Vector3.Distance(child.position, player.transform.position) < invManager.distanceToPickup)
             {
+                Debug.Log(child);
                 return child.gameObject;
             }
         }

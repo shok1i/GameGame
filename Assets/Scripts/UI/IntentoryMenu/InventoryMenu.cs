@@ -77,6 +77,9 @@ public class InventoryMenu : MonoBehaviour
         Sprite weaponSprite = null;
         try
         {
+            Color color = itemContainer.transform.Find("Weapon").gameObject.GetComponent<Image>().color;
+            color.a = 1;
+            itemContainer.transform.Find("Weapon").gameObject.GetComponent<Image>().color = color;
             weaponSprite = weaponContainer.transform.Find("WeaponInUse").GetComponentInChildren<SpriteRenderer>().sprite;
         }
         catch

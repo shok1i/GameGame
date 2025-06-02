@@ -18,8 +18,8 @@ public class PlayerInventory : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                if (PlayerManager.instance.playerInventory.AddItem(itemPick.GetComponent<itemManager>().instance))
-                    Destroy(itemPick);
+                //if (PlayerManager.instance.playerInventory.AddItem(itemPick.GetComponent<itemManager>().instance))
+                //    Destroy(itemPick);
             }
         }
     }

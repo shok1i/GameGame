@@ -7,15 +7,16 @@ public class BaseWeaponsClass : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform firePoint;
     public bool isShooting;
-    
+
     public float bulletSpeed = 10f;
     public float fireRate = 0.2f;
     public Joystick joystick;
 
     private float fireCooldown = 0f;
-    private bool isMobile = true;
+    private bool isMobile = false;
     void Awake()
     {
+        joystick = GameObject.FindWithTag("FireStick").gameObject.GetComponent<Joystick>();
         if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
         {
             isMobile = true;
@@ -62,6 +63,7 @@ public class BaseWeaponsClass : MonoBehaviour
 
     void Attack()
     {
-        
+
     }
+
 }

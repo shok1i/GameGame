@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D _rigidbody2D;
     private bool _canMove = true;
     private bool dashState = true;
-    private bool mobilePlayer = true;
+    private bool mobilePlayer = false;
 
 
     // Call once before Start()
@@ -22,10 +22,6 @@ public class PlayerMovement : MonoBehaviour
         {
             mobilePlayer = true;
         }
-        else
-        {
-            //joystick.gameObject.SetActive(false);
-        }
         _rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
@@ -34,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
         if (mobilePlayer)
         {
             _movement = new Vector2(joystick.Horizontal, joystick.Vertical);
+            
         }
         else
         {

@@ -132,7 +132,10 @@ MonoBehaviour:
   lifetime: 2
   hitEffectPrefab: {fileID: 0}
   hitSound: {fileID: 0}
+  damageToEnemy: 2
   effectLifetime: 1
+  enemyShooting: 0
+  enemyDamage: 0
 --- !u!61 &9153956374919440514
 BoxCollider2D:
   m_ObjectHideFlags: 0

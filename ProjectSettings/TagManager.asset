@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Wall
   - Enemy
+  - WeaponsContainer
+  - FireStick
   layers:
   - Default
   - TransparentFX
