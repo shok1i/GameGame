@@ -1,11 +1,14 @@
+using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
     public static Timer instance;
-
+    
     public float elapsedTime = 0f;
+    public TextMeshProUGUI text;
 
     void Awake()
     {
@@ -20,14 +23,24 @@ public class Timer : MonoBehaviour
         }
     }
 
+    void Start()
+    {
+        if (PlayerPrefs.GetInt("Timer") == 0)
+        {
+            text.gameObject.SetActive(false);
+        }
+    }
+
     void Update()
     {
         if (SceneManager.GetActiveScene().name == "MainMenu")
         {
-            
+
         }
-        else
+        else if (PlayerPrefs.GetInt("Timer") == 1)
         {
+            text.text = TimeSpan.FromSeconds((int)elapsedTime).ToString();
+            
             elapsedTime += Time.deltaTime;
         }
     }

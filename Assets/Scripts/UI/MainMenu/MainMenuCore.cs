@@ -1,5 +1,6 @@
 using System.IO;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -20,13 +21,29 @@ public class MainMenuCore : MonoBehaviour
     public GameObject mainBtnBg;
     public GameObject savedDataPrefab;
     public GameObject scrollViewContainer;
+    public GameObject savedData;
+    public Slider volumeSlider;
+    public Toggle timerToggle;
+    public AudioSource audio;
     private Vector3 _changePos = Vector3.zero;
     private bool _enterFlag = false;
     private bool _inSettings = false;
     private Animator _animator;
+    private bool timerStatus = false;
 
     void Start()
     {
+        if (!PlayerPrefs.HasKey("musicVolume"))
+        {
+            PlayerPrefs.SetFloat("musicVolume", 0.5f);
+            volumeSlider.value = 0.5f;
+        }
+        else
+        {
+            float volume = PlayerPrefs.GetFloat("musicVolume");
+            audio.volume = volume;
+            volumeSlider.value = volume;
+        }
         readFiles();
         _animator = gameObject.GetComponent<Animator>();
     }
@@ -54,6 +71,10 @@ public class MainMenuCore : MonoBehaviour
     {
         LerpAnimation();
         SettingsExitHandle();
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            savedData.SetActive(false);
+        }
     }
 
     void LerpAnimation()
@@ -71,6 +92,7 @@ public class MainMenuCore : MonoBehaviour
         if (!Input.GetKeyDown(KeyCode.Escape)) return;
 
         _animator.SetBool("SettingsExit", true);
+        
     }
 
 
@@ -134,6 +156,21 @@ public class MainMenuCore : MonoBehaviour
         if (!_enterFlag) return;
         _animator.SetTrigger("SettingsEnter");
     }
+    public void savedData_Click()
+    {
+        savedData.SetActive(true);
+    }
+    public void UpdateTimerStatus()
+    {
+        timerStatus = timerToggle.isOn;
+        Debug.Log(timerStatus);
+        PlayerPrefs.SetInt("Timer", timerStatus ? 1 : 0);
+    }
+    public void ChangeSoundValue()
+    {
+        audio.volume = volumeSlider.value;
+        PlayerPrefs.SetFloat("musicVolume", volumeSlider.value);
+    }
     private void readFiles()
     {
         string folderPath = Application.persistentDataPath + "/savedGames";
@@ -144,7 +181,7 @@ public class MainMenuCore : MonoBehaviour
             {
                 string json = System.IO.File.ReadAllText(filePath);
                 PlayerData data = JsonUtility.FromJson<PlayerData>(json);
-                var savedData = Instantiate(savedDataPrefab, parent: scrollViewContainer.transform);;
+                var savedData = Instantiate(savedDataPrefab, parent: scrollViewContainer.transform); ;
                 TextMeshProUGUI[] texts = savedData.GetComponentsInChildren<TextMeshProUGUI>();
                 texts[0].text = texts[0].text.ToString().Replace("\\", "").Replace("TIME", filePath.ToString().Replace("playerData", "").Replace(".json", "").Replace("_", " ").Replace(folderPath, ""));
                 texts[1].text = texts[1].text.ToString().Replace("SEED", data.seed.ToString());
@@ -157,7 +194,7 @@ public class MainMenuCore : MonoBehaviour
                     loadSave((int)data.seed, data.level, data.health);
                 });
                 Debug.Log(texts[3].text.Replace(folderPath, "").Replace("\\", ""));
-                
+
             }
         }
         else
@@ -167,7 +204,7 @@ public class MainMenuCore : MonoBehaviour
             return;
         }
     }
-
+    
     private void loadSave(int seed, int level, float health)
     {
         PlayerPrefs.SetFloat("Health", health);
@@ -175,4 +212,5 @@ public class MainMenuCore : MonoBehaviour
         PlayerPrefs.SetInt("Level", level);
         SceneManager.LoadScene("SceneForRooms");
     }
+    
 }

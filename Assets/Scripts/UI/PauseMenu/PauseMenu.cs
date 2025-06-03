@@ -17,17 +17,29 @@ public class PauseMenu : MonoBehaviour
     public AudioSource audioSource;
     public GameObject player;
     public GameObject _dungeonManager;
+    public GameObject weaponContainer;
 
     private GenerateDungeon _generateDungeon;
     private bool _isPaused = false;
+    private Vector3 gunPos;
+    private Quaternion gunRot;
+    private Vector3 playerScale;
+    
 
     void Start()
     {
+        audioSource.volume = PlayerPrefs.GetFloat("musicVolume");
         _generateDungeon = _dungeonManager.GetComponent<GenerateDungeon>();
     }
 
     void Update()
     {
+        if (_isPaused)
+        {
+            weaponContainer.transform.GetChild(0).transform.position = gunPos;
+            weaponContainer.transform.GetChild(0).transform.rotation = gunRot;
+            player.transform.localScale = playerScale;
+        }
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (_isPaused)
@@ -50,6 +62,9 @@ public class PauseMenu : MonoBehaviour
     }
     public void Pause()
     {
+        playerScale = player.transform.localScale;
+        gunRot = weaponContainer.transform.GetChild(0).transform.rotation;
+        gunPos = weaponContainer.transform.GetChild(0).transform.position;
         inGameUI.SetActive(false);
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
